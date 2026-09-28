@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f0e9" />
+    <meta name="description" content="The personal homepage of Bowen Liang from The Chinese University of Hong Kong, Shenzhen." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bowen Liang" />
+    <meta property="og:description" content="Personal homepage · The Chinese University of Hong Kong, Shenzhen" />
+    <meta property="og:image" content="https://jsyzlbw.github.io/portrait.jpg" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bowen Liang — Personal Homepage</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Bowen Liang, back to top">BL<span class="wordmark-dot">.</span></a>
+        <span class="header-label">Personal homepage <span aria-hidden="true">/</span> Shenzhen, China</span>
+        <a class="header-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main id="main">
+        <section class="hero" id="top" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Hello, I'm</div>
+            <h1 id="hero-title">Bowen<br /><em>Liang.</em></h1>
+            <p class="hero-intro">From <a href="https://www.cuhk.edu.cn/en" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong, Shenzhen</a>.</p>
+            <a class="hero-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+          <figure class="portrait-wrap">
+            <div class="portrait-accent" aria-hidden="true"></div>
+            <img src="portrait.jpg" alt="Portrait of Bowen Liang" width="1279" height="1828" fetchpriority="high" />
+            <figcaption>Bowen Liang <span aria-hidden="true">/</span> 梁博文</figcaption>
+          </figure>
+          <div class="hero-index" aria-hidden="true">01 <span></span> Introduction</div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+          <div class="section-kicker">02 <span aria-hidden="true">/</span> Contact</div>
+          <div class="contact-content">
+            <h2 id="contact-title">Let's connect<span class="period">.</span></h2>
+            <p>I'd be glad to hear from you. Reach me at either address below.</p>
+            <div class="email-list">
+              <a href="mailto:liangbowenbill@gmail.com"><span>Personal</span><strong>liangbowenbill@gmail.com</strong><span class="email-arrow" aria-hidden="true">↗</span></a>
+              <a href="mailto:bowenliang@link.cuhk.edu.cn"><span>University</span><strong>bowenliang@link.cuhk.edu.cn</strong><span class="email-arrow" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>© <span id="year">2026</span> Bowen Liang</span>
+        <span>Made for the web <span aria-hidden="true">✳</span></span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
